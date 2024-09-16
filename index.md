@@ -5,7 +5,7 @@ title: "Pablo Freitas - Data Science Portfolio"
 
 # Welcome to My Data Science Portfolio
 
-![Visitor Count](https://shields.io/endpoint?url=https://hitcount-server.fly.dev/pfs-db/pfs-db.github.io)
+![Visitor Count](https://hits.dwyl.com/pfs-db/pfs-db.github.io.svg)
 
 ## About Me
 
