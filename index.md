@@ -5,6 +5,8 @@ title: "Pablo Freitas - Data Science Portfolio"
 
 # Welcome to My Data Science Portfolio
 
+![Visitor Count](https://shields.io/endpoint?url=https://hitcount-server.fly.dev/pfs-db/pfs-db.github.io)
+
 ## About Me
 
 I'm a data scientist with expertise in Python, machine learning, and speech recognition. Currently working on projects related to hate speech detection and audio analysis.
