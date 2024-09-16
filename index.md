@@ -11,11 +11,42 @@ I'm a data scientist with expertise in Python, machine learning, and speech reco
 
 ## Projects
 
-### Hate Speech Detection from Audio
+### Hate Speech Detection from Audio (Work in Progress)
 
 - Tools: Python, OpenSmile, Whisper, TensorFlow
-- Description: Developed a system to detect hate speech in audio using machine learning models and speech feature extraction.
-- [View Code](https://github.com/pfs-db/hate-speech-project)
+- Description: Developing a system to detect hate speech in audio using machine learning models and speech feature extraction. The project includes a graphical user interface (GUI) for ease of use.
+<!-- - [View Code](https://github.com/pfs-db/hate-speech-project) -->
+- **Current Progress:**
+  - Organized folder structure.
+  - Initial GUI developed.
+
+![GUI Screenshot](images/features_viz.png)
+
+### Data Visualization of Wildfires (Group Project)
+
+- Tools: Python, Plotly, GeoPandas
+- Description: Collaborated in a group project focused on visualizing wildfire data, using data science techniques to analyze geographical and temporal patterns.
+- [View Code](https://github.com/pfs-db/dataviz-wildfire)
+
+### Haskell Project
+
+- Tools: Haskell
+- Description: Project developed for understanding functional programming concepts.
+- [View Code](https://github.com/pfs-db/pi3-ws23-ueb-pablo)
+
+## Areas of Interesse
+
+### Computational Processing of Nheengatú (Modern Tupí)
+
+- Tools: Python
+- Description: Tools and resources for the computational processing of Nheengatú, a Tupi-Guarani language.
+- [View Code](https://github.com/pfs-db/nheengatu)
+
+### Rust Exploration
+
+- Tools: Rust
+- Description: A personal project to explore and learn Rust, with examples and learning resources.
+- [View Code](https://github.com/pfs-db/rust2learn)
 
 ## Skills
 
