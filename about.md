@@ -1,3 +1,9 @@
+---
+layout: page
+title: "About Me"
+permalink: /about/
+---
+
 ## About Me
 
 Hello, I’m Pablo Freitas, a data scientist passionate about solving real-world problems using data-driven insights. I have experience in machine learning, audio and speech recognition, and Python-based development.
