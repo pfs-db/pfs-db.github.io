@@ -5,7 +5,7 @@ title: "Pablo Freitas - Data Science Portfolio"
 
 # Welcome to My Data Science Portfolio
 
-![Visitor Count](https://hits.dwyl.com/pfs-db/pfs-db.github.io.svg)
+<!-- ![Visitor Count](https://shields.io/endpoint?url=https://hitcount-server.fly.dev/pfs-db/pfs-db.github.io) -->
 
 ## About Me
 
@@ -13,14 +13,11 @@ I'm a data scientist with expertise in Python, machine learning, and speech reco
 
 ## Projects
 
-### Hate Speech Detection from Audio (Work in Progress)
+### Hate Speech Detection from Audio
 
 - Tools: Python, OpenSmile, Whisper, TensorFlow
 - Description: Developing a system to detect hate speech in audio using machine learning models and speech feature extraction. The project includes a graphical user interface (GUI) for ease of use.
-<!-- - [View Code](https://github.com/pfs-db/hate-speech-project) -->
-- **Current Progress:**
-  - Organized folder structure.
-  - Initial GUI developed.
+- [View Code](https://github.com/pfs-db/HateScan)
 
 ![GUI Screenshot](images/features_viz.png)
 
