@@ -19,8 +19,6 @@ I'm a data scientist with expertise in Python, machine learning, and speech reco
 - Description: Developing a system to detect hate speech in audio using machine learning models and speech feature extraction. The project includes a graphical user interface (GUI) for ease of use.
 - [View Code](https://github.com/pfs-db/HateScan)
 
-![GUI Screenshot](images/features_viz.png)
-
 ### Data Visualization of Wildfires (Group Project)
 
 - Tools: Python, Plotly, GeoPandas
