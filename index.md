@@ -3,7 +3,8 @@ layout: default
 title: "Pablo Freitas - Data Science Portfolio"
 ---
 
-# Welcome to My Data Science Portfolio
+# Pablo Freitas
+**Data Analyst · Python · SQL · Machine Learning**
 
 <!-- ![Visitor Count](https://shields.io/endpoint?url=https://hitcount-server.fly.dev/pfs-db/pfs-db.github.io) -->
 
@@ -25,25 +26,13 @@ I'm a data scientist with expertise in Python, machine learning, and speech reco
 - Description: Collaborated in a group project focused on visualizing wildfire data, using data science techniques to analyze geographical and temporal patterns.
 - [View Code](https://github.com/pfs-db/dataviz-wildfire)
 
-### Haskell Project
-
-- Tools: Haskell
-- Description: Project developed for understanding functional programming concepts.
-- [View Code](https://github.com/pfs-db/pi3-ws23-ueb-pablo)
-
-## Areas of Interesse
+## Areas of Interest
 
 ### Computational Processing of Nheengatú (Modern Tupí)
 
 - Tools: Python
 - Description: Tools and resources for the computational processing of Nheengatú, a Tupi-Guarani language.
 - [View Code](https://github.com/pfs-db/nheengatu)
-
-### Rust Exploration
-
-- Tools: Rust
-- Description: A personal project to explore and learn Rust, with examples and learning resources.
-- [View Code](https://github.com/pfs-db/rust2learn)
 
 ## Skills
 
@@ -54,6 +43,6 @@ I'm a data scientist with expertise in Python, machine learning, and speech reco
 
 ## Contact Me
 
-- Email: pablo2@uni-bremen.de
+- Email: pablofreitag@proton.me
 - LinkedIn: [pablo-freitas-it](https://linkedin.com/in/pablo-freitas-it)
 - GitHub: [pfs-db](https://github.com/pfs-db)
