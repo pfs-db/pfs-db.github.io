@@ -1,0 +1,27 @@
+{
+  "name": "pfs-db.github.io",
+  "version": "1.0.0",
+  "description": "This repository hosts the official website for the **PFS-DB Project**, utilizing the [Forty Jekyll Theme](https://html5up.net/forty) by [HTML5 UP](https://html5up.net). It serves as a central hub for documentation, updates, and resources related to the PFS-DB initiative.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "eleventy",
+    "start": "eleventy --serve",
+    "deploy": "npm run build && gh-pages -d _site"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pfs-db/pfs-db.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pfs-db/pfs-db.github.io/issues"
+  },
+  "homepage": "https://github.com/pfs-db/pfs-db.github.io#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.0",
+    "gh-pages": "^6.3.0"
+  }
+}

@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="/css/main.css">
+    <style>
+        /* Root Variables */
+        :root {
+            --bg-color: #ffffff;
+            --text-color: #333333;
+            --header-bg: #f9f9f9;
+            --footer-bg: #f9f9f9;
+            --border-color: #e0e0e0;
+            --nav-hover: #555555;
+            --title-color: #000000;
+            --main-bg-color: transparent;
+        }
+        
+        [data-theme="dark"] {
+            --bg-color: #1e1e1e;
+            --text-color: #f2f2f2;
+            --header-bg: #333333;
+            --footer-bg: #333333;
+            --border-color: #444444;
+            --nav-hover: #888888;
+            --title-color: #ffffff;
+            --main-bg-color: transparent;
+        }
+
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        #top-bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0.5rem 1.5rem;
+            background-color: var(--header-bg);
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        header {
+            text-align: center;
+            padding: 1.5rem 0;
+            background-color: var(--header-bg);
+        }
+
+        header h1 {
+            color: var(--title-color);
+            margin: 0;
+            font-size: 2rem;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: var(--text-color);
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: var(--nav-hover);
+        }
+
+        main {
+            flex-grow: 1;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem 1rem;
+            background-color: var(--main-bg-color);
+        }
+
+        footer {
+            background-color: var(--footer-bg);
+            color: var(--text-color);
+            text-align: center;
+            padding: 1rem;
+            margin-top: auto;
+            width: 100%;
+            border-top: 1px solid var(--border-color);
+        }
+
+        /* Toggle Switch */
+        .switch {
+            position: relative;
+            display: inline-block;
+            width: 50px;
+            height: 24px;
+        }
+
+        .switch input {
+            opacity: 0;
+            width: 0;
+            height: 0;
+        }
+
+        .slider {
+            position: absolute;
+            cursor: pointer;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #ccc;
+            transition: .4s;
+            border-radius: 24px;
+        }
+
+        .slider:before {
+            position: absolute;
+            content: "";
+            height: 18px;
+            width: 18px;
+            left: 3px;
+            bottom: 3px;
+            background-color: white;
+            transition: .4s;
+            border-radius: 50%;
+        }
+
+        input:checked + .slider {
+            background-color: #666;
+        }
+
+        input:checked + .slider:before {
+            transform: translateX(26px);
+        }
+
+        #language-switcher {
+            cursor: pointer;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Top Bar with Toggles -->
+<div id="top-bar">
+    <label class="switch">
+        <input type="checkbox" id="theme-toggle">
+        <span class="slider"></span>
+    </label>
+
+    <div id="language-switcher">EN | PT</div>
+</div>
+
+<!-- Header -->
+<header>
+    <h1>{{ title }}</h1>
+</header>
+
+<!-- Navigation -->
+<nav>
+    <a href="/">Home</a>
+    <a href="/about/">About Me</a>
+    <a href="/projects/">Projects</a>
+    <a href="/contact/">Contact</a>
+</nav>
+
+<!-- Main Content (No Box, Just Natural Flow) -->
+<main>
+    {% block content %}{% endblock %}
+</main>
+
+<!-- Footer (Light in Day, Dark in Night) -->
+<footer>
+    <p>&copy; 2025 Pablo Freitas. All rights reserved.</p>
+</footer>
+
+<!-- JavaScript for Theme Switching -->
+<script>
+    const themeToggle = document.getElementById('theme-toggle');
+
+    // Check localStorage for theme preference
+    if (localStorage.getItem('theme') === 'dark') {
+        document.documentElement.setAttribute('data-theme', 'dark');
+        themeToggle.checked = true;
+    }
+
+    themeToggle.addEventListener('change', () => {
+        if (themeToggle.checked) {
+            document.documentElement.setAttribute('data-theme', 'dark');
+            localStorage.setItem('theme', 'dark');
+        } else {
+            document.documentElement.removeAttribute('data-theme');
+            localStorage.setItem('theme', 'light');
+        }
+    });
+</script>
+
+</body>
+</html>
