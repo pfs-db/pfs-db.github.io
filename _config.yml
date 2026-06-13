@@ -1,7 +1,7 @@
-title: Pablo Github
-email: pablo2@uni-bremen.de
+title: Pablo Freitas | Data Analyst Portfolio
+email: pablofreitag@proton.me
 description: >- # this means to ignore newlines until "baseurl:"
-  Here you can find some old stuff which I did in my university, amateur projects to learn a new skill, journal about learning and much more.
+  Portfolio of Pablo Freitas — Data Analyst specializing in Python, machine learning, speech processing, and data visualization.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username:

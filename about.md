@@ -6,7 +6,7 @@ permalink: /about/
 
 ## About Me
 
-Hello, I’m Pablo Freitas, a data scientist passionate about solving real-world problems using data-driven insights. I have experience in machine learning, audio and speech recognition, and Python-based development.
+Hello, I’m Pablo Freitas, a data analyst passionate about solving real-world problems using data-driven insights. I have experience in machine learning, audio and speech recognition, and Python-based development.
 
 I’ve worked on projects involving hate speech detection from audio, where I used advanced tools such as OpenSmile, Whisper, and machine learning models to extract features from audio and classify speech.
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "My First Data Science Project"
+title: "Hate Speech Detection from Audio"
 date: 2024-09-16
 categories: project
 ---
