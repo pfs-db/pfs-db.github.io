@@ -45,7 +45,6 @@ I'm a data analyst with expertise in Python, mathematical signal analysis, and d
 - Signal Analysis: error detection, outlier identification, statistical validation
 - Data Visualization: Matplotlib, Plotly, Dash
 - Speech Processing: OpenSmile, Whisper
-- Database: SQL, NoSQL
 
 ## Contact Me
 
