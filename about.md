@@ -6,16 +6,16 @@ permalink: /about/
 
 ## About Me
 
-Hello, I’m Pablo Freitas, a data analyst passionate about solving real-world problems using data-driven insights. I have experience in machine learning, audio and speech recognition, and Python-based development.
+Hello, I’m Pablo Freitas, a data analyst passionate about solving real-world problems using data-driven insights. I work with Python to apply mathematical and statistical methods to measurement data — identifying errors, validating signals, and building analysis pipelines that support data quality in engineering contexts.
 
-I’ve worked on projects involving hate speech detection from audio, where I used advanced tools such as OpenSmile, Whisper, and machine learning models to extract features from audio and classify speech.
+I’ve also worked on research projects involving hate speech detection from audio, using tools such as OpenSmile, Whisper, and machine learning models for feature extraction and classification.
 
 ### My Key Strengths:
 
-- **Machine Learning & AI**: Experience in building predictive models using Python, scikit-learn, and TensorFlow.
-- **Speech Recognition**: Proficient in using Whisper for transcription and OpenSmile for feature extraction.
+- **Signal Analysis & Error Detection**: Applying mathematical and statistical approaches to identify anomalies and errors in measurement signals using Python, NumPy, and SciPy.
 - **Data Wrangling**: Extensive experience working with large datasets, feature engineering, and cleaning data using Pandas and NumPy.
-- **Data Visualization**: Strong skills in data visualization using tools like Matplotlib, Plotly, and Dash.
+- **Data Visualization**: Strong skills in communicating findings through visualizations using Matplotlib, Plotly, and Dash.
+- **Speech & Audio Processing**: Experience with Whisper for transcription and OpenSmile for audio feature extraction.
 
 You can view some of my projects in the **Projects** section, where I demonstrate my work in hate speech detection, speech-to-text transcription, and other data-driven solutions.
 
